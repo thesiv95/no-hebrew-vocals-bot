@@ -5,7 +5,7 @@ name: Node.js CI - no hebrew vocals bot
 
 env:
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-  LIMIT: ${{ secrets.LIMIT }}
+  LIMIT: 140
 
 on:
   push:
