@@ -3,7 +3,9 @@
 
 name: Node.js CI - no hebrew vocals bot
 
-
+env:
+  BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+  LIMIT: ${{ secrets.LIMIT }}
 
 on:
   push:
@@ -13,11 +15,7 @@ on:
 
 jobs:
   build:
-    env:
-      BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-      LIMIT: ${{ secrets.LIMIT }}
-
-
+    
     runs-on: ubuntu-latest
 
     strategy:
