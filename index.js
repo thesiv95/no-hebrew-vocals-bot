@@ -8,6 +8,8 @@ dotenv.config();
 const LIMIT = parseInt(process.env.LIMIT) || 100;
 const token = process.env.BOT_TOKEN;
 
+console.log('envs', token, LIMIT)
+
 if (!token) {
   console.error("Token not found");
   process.exit(1);
