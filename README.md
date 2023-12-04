@@ -17,10 +17,9 @@ This bot uses three languages for UI: Hebrew, English and Russian.
 
 3. You will get your "clean" text in reply, like this:
 ```
-יש תערוכות קבועות ויש תערוכות מתחלפות.
-יש תערוכה על בתי כנסת חשובי בעול.
-יש תערוכה על אומנות יהודית עתיקה וחדשה.
-יש במוזיאו חנות מזכרות. יש בה גלויות צבעוניות, יש בה ספרי מענייני,
+יש בה עבודות אומנות מיוחדות, יש בה תקליטורים ובהם מוזיקה יהודית,
+יש בה משחקים חינוכיים ועוד.
+בכל יום באים למוזיאון המרתק הזה תיירים סקרנים מכל העולם.
 ```
 
 Remember that symbols length is limited in order to keep quick performance. Normally it is 100 symbols (however, developer/admin can configure this value, see below).
