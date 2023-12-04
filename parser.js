@@ -7,7 +7,7 @@ function parser(str, limit) {
             if (str.length > (limit * 2.5)) return resolve(limitReachedErrorMessage(limit));
         
             // symbols that should *not* be filtered out at the end
-            const cleanChars = "אבגדהוזחטיכלמנסעפצקרשת !?:-+.,“”.\t\n";
+            const cleanChars = "אבגדהוזחטיכלמנסעפצקרםןץשת !?:-+.,“”.\t\n";
             str = str.split("");
         
             str = str.filter((char) => cleanChars.includes(char));
